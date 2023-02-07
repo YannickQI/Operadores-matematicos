@@ -1,0 +1,13 @@
+void main(){
+  
+  var calor = 23;
+  var forcadetrabalho = 12;
+  var energiainterna = 100;
+  
+  // fórmula para a resolução: Q/t * 100
+  
+  var power = forcadetrabalho/calor * energiainterna;
+    
+print("${power.toStringAsFixed(2)} %");
+  
+}
