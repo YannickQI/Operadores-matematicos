@@ -1,0 +1,13 @@
+void main(){
+  
+  var calor = 50;
+  var forcadetrabalho = 12;
+  var energiainterna = 100;
+  
+  // fórmula para a resolução: Q = t + AU
+  
+  var power = energiainterna + calor - forcadetrabalho;
+    
+print("U = ${power.toStringAsFixed(1)} j");
+  
+}
