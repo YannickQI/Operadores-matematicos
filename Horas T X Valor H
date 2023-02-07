@@ -1,0 +1,23 @@
+void main(){
+  
+  var chapaA = 25;
+  var chapaB = 1;
+  var chapaC = 6;
+  
+  var htA = 100;
+  var htB = 200;
+  var htC = 145;
+  
+  var valorhA = 5.50;
+  var valorhB = 20.50;
+  var valorhC = 15.55;
+  
+  var totalA = htA * valorhA;
+  var totalB = htB * valorhB;
+  var totalC = htC * valorhC;
+  
+  print("O funcionário CHAPA $chapaA recebeu o salário de ${totalA.toStringAsFixed(2)} reais");
+  print("O funcionário CHAPA $chapaB recebeu o salário de ${totalB.toStringAsFixed(2)} reais");
+  print("O funcionário CHAPA $chapaC recebeu o salário de ${totalC.toStringAsFixed(2)} reais");
+  
+}
