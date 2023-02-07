@@ -1,0 +1,16 @@
+void main(){
+  
+  var raioa = 2;
+  var raiob = 100.64;
+  var raioc = 150;
+  var pi = 3.1415;
+  
+  var areaa = (raioa * raioa) * pi;
+  var areab = (raiob * raiob) * pi;
+  var areac = (raioc * raioc) * pi;
+  
+  print("A área do circulo A é ${areaa.toStringAsFixed(3)}");
+ print("A área do circulo B é ${areab.toStringAsFixed(3)}");
+print("A área do circulo C é ${areac.toStringAsFixed(3)}");
+  
+}
