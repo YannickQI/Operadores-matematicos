@@ -1,0 +1,23 @@
+void main(){
+  
+  var funcA = "João";
+  var funcB = "Paulo";
+  var funcC = "Carla";
+  
+  var salA = 500;
+  var salB = 700;
+  var salC = 1700;
+  
+  var comissaoA = 1230.30 * 0.15;
+  var comissaoB = 0 * 0.15;
+  var comissaoC = 1230.50 * 0.15;
+  
+  var totalA = salA + comissaoA;
+  var totalB = salB + comissaoB;
+  var totalC = salC + comissaoC;
+  
+  print("O funcionário(a) $funcA recebeu o salário de ${totalA.toStringAsFixed(2)} reais");
+  print("O funcionário(a) $funcB recebeu o salário de ${totalB.toStringAsFixed(2)} reais");
+  print("O funcionário(a) $funcC recebeu o salário de ${totalC.toStringAsFixed(2)} reais");
+  
+}
