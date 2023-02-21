@@ -1,0 +1,19 @@
+void main(){
+  int a = 2;
+  int b = 3;
+  int c = 2;
+  int d = 6;
+  
+  bool primeiraComparacao = b > a;
+  bool segundaComparacao = d > a;
+  bool terceiraComparacao = (c + d) > (a + b);
+  bool quartaComparacao = a == c;
+  
+  bool conjuncao = primeiraComparacao && segundaComparacao && terceiraComparacao && quartaComparacao;
+  
+  if(conjuncao){
+    print("Valores Aceitos");
+  }else{
+    print("Valores não Aceitos");
+  }
+}
